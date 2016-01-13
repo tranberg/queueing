@@ -15,3 +15,11 @@ List all queues:
 List all queues including unacknowledged messages
 
     sudo rabbitmqctl list_queues name messages_ready messages_unacknowledged
+
+List exchanges:
+
+    sudo rabbitmqctl list_exchanges
+
+List bindings:
+
+    sudo rabbitmqctl list_bindings.
