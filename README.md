@@ -11,3 +11,7 @@ Test of queueing using Python and RabbitMQ following [this](https://www.rabbitmq
 List all queues:
 
     sudo rabbitmqctl list_queues
+
+List all queues including unacknowledged messages
+
+    sudo rabbitmqctl list_queues name messages_ready messages_unacknowledged
